@@ -2,6 +2,35 @@
 using namespace std;
 
 // sum of digits
+//feature - 
+
+//data types - int , float, double, bool
+//return types - int , float, double, bool , void
+
+
+
+// void forLoop(int i){
+  
+//     for(i ; i <= 3 ; i++){
+//         cout << i << " "; 
+//     }
+// }
+
+int sumOfDigits(int num){
+
+    int sum = 0;
+
+    while( num != 0){
+       int digit = num % 10;
+
+       sum = sum + digit; 
+
+       num = num / 10;
+    }
+
+    return sum;
+}  
+
 
 int main(){
    
@@ -29,8 +58,15 @@ int main(){
     sum = 0 
     sum + 9 + 9 + 6 = 24  ...    
     */
-  
+    
+    // forLoop(0);
 
+    int num = 123; // 1 + 2 + 3 = 6
+
+    int ans = sumOfDigits(num);
+
+    cout << ans;
+   
 
     return 0;
 }
