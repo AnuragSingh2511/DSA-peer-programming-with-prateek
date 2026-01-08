@@ -7,15 +7,6 @@ using namespace std;
 //data types - int , float, double, bool
 //return types - int , float, double, bool , void
 
-
-
-// void forLoop(int i){
-  
-//     for(i ; i <= 3 ; i++){
-//         cout << i << " "; 
-//     }
-// }
-
 int sumOfDigits(int num){
 
     int sum = 0;
@@ -57,9 +48,8 @@ int main(){
 
     sum = 0 
     sum + 9 + 9 + 6 = 24  ...    
-    */
+    */  
     
-    // forLoop(0);
 
     int num = 123; // 1 + 2 + 3 = 6
 
